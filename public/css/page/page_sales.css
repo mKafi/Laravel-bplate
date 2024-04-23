@@ -1,0 +1,60 @@
+#items-table td {
+    padding: 7px 5px;
+}
+#tempInvoice td {
+    padding: 5px;
+}
+#tempInvoice td input {
+    padding: 0;
+    height: inherit;
+    border: none;
+}
+#tempInvoice td input:focus {    
+    border: 0;
+    outline: none;
+}
+.prd-title .closeItem {
+    width: 20px;
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.prd-title .closeItem:hover {
+    color: red;
+}
+table#submit-form {
+    background-color: lightgreen;
+}
+td#grand-total {
+    font-size: 30px;
+    font-weight: bold;
+}
+#tempInvoice tr td:last-child {
+    text-align: right;
+}
+td#discount {
+    background-color: lime;
+}
+input.invHiddenText {
+    background: transparent !important;
+    border: none;
+    text-align: right;
+}
+#pDue{
+    background-color: goldenrod;
+}
+#previous-due {
+    font-weight: bold;
+    font-style: italic;    
+}
+table#submit-form tr td input {
+    width: 70%;
+}
+button#btnSubmitOrder {
+    position: relative;
+    top: 13px;
+}
+button#btnSubmitOrder:focus {    
+    color: black;
+}
+
